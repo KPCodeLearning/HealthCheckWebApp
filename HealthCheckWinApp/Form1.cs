@@ -68,6 +68,7 @@ namespace HealthCheckWinApp
             _html.Append("</table></center>");
             return _html.ToString();
         }
+        
         //private void readData()
         //{
         //    XmlTextReader reader = new XmlTextReader("books.xml");
@@ -96,7 +97,6 @@ namespace HealthCheckWinApp
         //                break;
         //        }
         //    }
-
         //    HealthData.title = title;
         //    HealthData.regards = regards;
         //    HealthData.to = to;
@@ -104,6 +104,7 @@ namespace HealthCheckWinApp
 
         //    //return HealthData;
         //}
+        
         private void sendMail()
         {
             try
