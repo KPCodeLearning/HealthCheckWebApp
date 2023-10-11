@@ -18,6 +18,7 @@ namespace HealthCheckWinApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            //Edited on 12 Oct 2024
         }
 
         
